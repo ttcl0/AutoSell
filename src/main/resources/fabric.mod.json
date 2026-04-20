@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "autosell",
+  "version": "${version}",
+  "name": "AutoSell",
+  "description": "Automatically runs /sellall basalt when basalt is received in inventory.",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.autosell.AutoSellMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
