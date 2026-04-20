@@ -45,9 +45,3 @@ The output JAR will be at `build/libs/autosell-<version>.jar`.
 4. Enter the **Block ID** (e.g. `basalt`) and a **Delay (ms)** (e.g. `500`).
 5. Click **Save**. The mod will now automatically sell that block whenever it enters your inventory.
 6. Open `.autosell` again and click **Disable** to pause selling.
-
----
-
-## License
-
-MIT
