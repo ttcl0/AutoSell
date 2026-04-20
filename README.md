@@ -9,7 +9,7 @@ Works with [EconomyShopGUI](https://www.spigotmc.org/resources/economyshopgui.69
 ## Features
 
 - Open the config menu in-game with `.autosell` in chat — the message is intercepted client-side and never sent to the server.
-- Set the **Block ID** (e.g. `basalt` or `minecraft:basalt`) and a **Time Delay (ms)** before the sell fires.
+- Set the **Block ID** (e.g. `basalt`) and a **Time Delay (ms)** before the sell fires.
 - When the tracked item count in your inventory increases, the mod waits for the configured delay then executes `/sellall <blockid>`.
 - A **Disable** button in the menu pauses selling without clearing your settings.
 - Config resets on server join to prevent stale state.
